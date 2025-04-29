@@ -1,17 +1,27 @@
 {
-  "dependencyDashboard": "true",
+  "dependencyDashboard": true,
   "postUpgradeTasks": {
-    "commands": ["npm i"],
-    "fileFilters": ["package-lock.json", "package.json"],
+    "commands": [
+      "npm i"
+    ],
+    "fileFilters": [
+      "package-lock.json",
+      "package.json"
+    ],
     "executionMode": "update"
   },
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
   },
-  "labels": ["dependencies", "javascript"],
-  "autoApprove": "false",
-  "enabledManagers": ["npm"],
+  "labels": [
+    "dependencies",
+    "javascript"
+  ],
+  "autoApprove": false,
+  "enabledManagers": [
+    "npm"
+  ],
   "extends": [
     ":enableVulnerabilityAlerts",
     ":separateMajorReleases",
