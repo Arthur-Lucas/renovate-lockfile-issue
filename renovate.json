@@ -27,5 +27,4 @@
     "helpers:disableTypesNodeMajor",
     "group:testNonMajor"
   ],
-  "onboarding": true
 }
