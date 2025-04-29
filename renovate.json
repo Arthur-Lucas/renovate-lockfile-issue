@@ -20,6 +20,6 @@
     ":prConcurrentLimitNone",
     "helpers:disableTypesNodeMajor",
     "group:testNonMajor",
-    "group:react"
+    "group:reactMonorepo"
   ]
 }
