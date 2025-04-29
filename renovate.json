@@ -26,5 +26,5 @@
     "group:recommended",
     "helpers:disableTypesNodeMajor",
     "group:testNonMajor"
-  ],
+  ]
 }
