@@ -1,15 +1,5 @@
 {
   "dependencyDashboard": true,
-  "postUpgradeTasks": {
-    "commands": [
-      "npm i"
-    ],
-    "fileFilters": [
-      "package-lock.json",
-      "package.json"
-    ],
-    "executionMode": "update"
-  },
   "rangeStrategy": "pin",
   "lockFileMaintenance": {
     "enabled": true
