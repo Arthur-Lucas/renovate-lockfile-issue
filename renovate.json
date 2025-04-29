@@ -4,14 +4,9 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "labels": [
-    "dependencies",
-    "javascript"
-  ],
+  "labels": ["dependencies", "javascript"],
   "autoApprove": false,
-  "enabledManagers": [
-    "npm"
-  ],
+  "enabledManagers": ["npm"],
   "extends": [
     ":enableVulnerabilityAlerts",
     ":separateMajorReleases",
@@ -23,8 +18,8 @@
     ":automergeDisabled",
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone",
-    "group:recommended",
     "helpers:disableTypesNodeMajor",
-    "group:testNonMajor"
+    "group:testNonMajor",
+    "group:react"
   ]
 }
