@@ -4,6 +4,26 @@
   "lockFileMaintenance": {
     "enabled": true
   },
+  "packageRules": [
+  {
+    "groupName": "eslint packages",
+    "matchPackageNames": ["**eslint**"],
+    "matchUpdateTypes": [
+      "digest",
+      "patch",
+      "minor"
+    ]
+  },
+  {
+    "groupName": "postcss packages",
+    "matchPackageNames": ["**postcss**"],
+    "matchUpdateTypes": [
+      "digest",
+      "patch",
+      "minor"
+    ]
+  }
+  ],
   "labels": ["dependencies", "javascript"],
   "autoApprove": false,
   "enabledManagers": ["npm"],
@@ -20,7 +40,6 @@
     ":prConcurrentLimitNone",
     "helpers:disableTypesNodeMajor",
     "group:testNonMajor",
-    "group:react",
-    "group:eslintMonorepo"
+    "group:reactMonorepo"
   ]
 }
