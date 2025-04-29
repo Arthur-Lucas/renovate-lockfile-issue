@@ -27,7 +27,7 @@
     "@typescript-eslint/parser": "8.29.0",
     "autoprefixer": "10.4.21",
     "axe-core": "4.10.3",
-    "core-js": "3.41.0",
+    "core-js": "3.42.0",
     "cypress": "14.3.0",
     "cypress-axe": "1.6.0",
     "eslint": "9.23.0",
