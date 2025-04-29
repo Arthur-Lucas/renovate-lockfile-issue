@@ -1,17 +1,13 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 35601
 
 ## Current behavior
 
-Explain the current behavior here.
+The file renovate.json is an npm preset used by my config.js. This configuration currently works and updates deprecated packages in my package.json. However, my package-lock.json is never updated when a package is updated.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+I want my package-lock.json to be updated whenever a package in package.json is updated.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/35601
