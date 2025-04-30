@@ -7,7 +7,7 @@
   "packageRules": [
   {
     "groupName": "eslint packages",
-    "matchPackageNames": ["**eslint**"],
+    "matchPackageNames": ["eslint**"],
     "matchUpdateTypes": [
       "digest",
       "patch",
