@@ -4,17 +4,6 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "packageRules": [
-  {
-    "groupName": "eslint packages",
-    "matchPackageNames": ["eslint**"],
-    "matchUpdateTypes": [
-      "digest",
-      "patch",
-      "minor"
-    ]
-  }
-  ],
   "labels": ["dependencies", "javascript"],
   "autoApprove": false,
   "enabledManagers": ["npm"],
